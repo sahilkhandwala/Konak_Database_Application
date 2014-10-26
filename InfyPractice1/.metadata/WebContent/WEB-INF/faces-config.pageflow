@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf13855112586785" configfile="/InfyPractice1/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="UserHomepage" x="168" y="108" id="pf138578686029519" referenceLink="//@navigationRule.11/@navigationCase.0/@toViewId|" outlinks="pf138578686029520 pf138614042704170" inlinks="pf138584753295931 pf138586965534736 pf138587032637646" path="/UserHomepage.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="UserHotel" x="366" y="116" id="pf138578686029522" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" inlinks="pf138578686029520" path="/UserHotel.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="Reviews" x="411" y="341" id="pf138579310598923" referenceLink="//@navigationRule.11/@fromViewId|" outlinks="pf138587032637646" path="/Reviews.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="Login" x="466" y="226" id="pf138584733920425" referenceLink="//@navigationRule.3/@fromViewId|" outlinks="pf138584746828929 pf138584753295931" path="/Login.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="Failure" x="579" y="271" id="pf138584746829030" referenceLink="//@navigationRule.21/@navigationCase.0/@toViewId|" inlinks="pf138584746828929 pf138595864372464" path="/Failure.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="Homepage" x="56" y="54" id="pf138585247458232" referenceLink="//@navigationRule.22/@navigationCase.0/@toViewId|" outlinks="pf138585247458233 pf138587821685352 pf138614042704171" inlinks="pf138596566488365" path="/Homepage.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="Searchhotel" x="67" y="212" id="pf138585247458235" referenceLink="//@navigationRule.4/@navigationCase.0/@toViewId|" inlinks="pf138585247458233" path="/Searchhotel.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="Registration" x="216" y="277" id="pf138586965534737" referenceLink="//@navigationRule.7/@navigationCase.0/@toViewId|" outlinks="pf138586965534736 pf138586968343338" inlinks="pf138586968343338" path="/Registration.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="AdminBooking" x="117" y="377" id="pf138587028266339" referenceLink="//@navigationRule.19/@fromViewId|" outlinks="pf138587028266340 pf138595821896061" path="/AdminBooking.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="DeleteReview" x="249" y="406" id="pf138587028266341" referenceLink="//@navigationRule.12/@fromViewId|" outlinks="pf138587028266342 pf138587082151847" path="/DeleteReview.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="DeleteUser" x="41" y="437" id="pf138587028266343" referenceLink="//@navigationRule.18/@fromViewId|" outlinks="pf138587028266344 pf138595821896062" path="/DeleteUser.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="AdminSuccess" x="140" y="576" id="pf138587028266345" referenceLink="//@navigationRule.10/@navigationCase.0/@toViewId|" inlinks="pf138587028266344 pf138587028266340 pf138587028266342" path="/AdminSuccess.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="NotDelete" x="36" y="291" id="pf138587082151848" referenceLink="//@navigationRule.20/@navigationCase.0/@toViewId|" inlinks="pf138587082151847 pf138595821896062 pf138595821896061 pf138595841651163" path="/NotDelete.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="AdminLogin" x="505" y="490" id="pf138587104832249" referenceLink="//@navigationRule.20/@fromViewId|" outlinks="pf138587104832250 pf138595841651163" path="/AdminLogin.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="Adminhome" x="366" y="556" id="pf138587104832251" referenceLink="//@navigationRule.13/@navigationCase.0/@toViewId|" inlinks="pf138587104832250" path="/Adminhome.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="Reviews1" x="240" y="36" id="pf138587821685453" referenceLink="//@navigationRule.14/@navigationCase.0/@toViewId|" inlinks="pf138587821685352" path="/Reviews1.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="Forgot" x="579" y="173" id="pf138588058805754" referenceLink="//@navigationRule.21/@fromViewId|" outlinks="pf138588058805755 pf138595864372464" inlinks="pf138588058805755" path="/Forgot.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="Payment" x="396" id="pf138589455707257" referenceLink="//@navigationRule.17/@navigationCase.0/@toViewId|" outlinks="pf138589455707258 pf138589455707259" inlinks="pf138589455707259" path="/Payment.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="PaymentSuccess" x="553" y="37" id="pf138589455707260" referenceLink="//@navigationRule.22/@fromViewId|" outlinks="pf138596566488365" inlinks="pf138589455707258" path="/PaymentSuccess.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="DisplayBooking" x="527" y="377" id="pf138612526550066" outlinks="pf138612526550067 pf138612526550068" inlinks="pf138612526550068" path="/DisplayBooking.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="DisplayBooking1" x="629" y="503" id="pf138612526550169" inlinks="pf138612526550067" path="/DisplayBooking1.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="SearchError" x="96" y="-29" id="pf138614042704272" inlinks="pf138614042704171 pf138614042704170" path="/SearchError.jsp"/>
+  <links id="pf138578686029520" target="pf138578686029522" source="pf138578686029519" outcome="success"/>
+  <links id="pf138584746828929" target="pf138584746829030" source="pf138584733920425" outcome="false"/>
+  <links id="pf138584753295931" target="pf138578686029519" source="pf138584733920425" outcome="success"/>
+  <links id="pf138585247458233" target="pf138585247458235" source="pf138585247458232" outcome="success"/>
+  <links id="pf138586965534736" target="pf138578686029519" source="pf138586965534737" outcome="success"/>
+  <links id="pf138586968343338" target="pf138586965534737" source="pf138586965534737" outcome="fail">
+    <bendPoints d1Height="-36" d2Height="-36"/>
+    <bendPoints d1Width="-64" d1Height="-36" d2Width="-64" d2Height="-36"/>
+    <bendPoints d1Width="-64" d2Width="-64"/>
+  </links>
+  <links id="pf138587028266344" target="pf138587028266345" source="pf138587028266343" outcome="success"/>
+  <links id="pf138587028266340" target="pf138587028266345" source="pf138587028266339" outcome="success"/>
+  <links id="pf138587028266342" target="pf138587028266345" source="pf138587028266341" outcome="success"/>
+  <links id="pf138587032637646" target="pf138578686029519" source="pf138579310598923" outcome="success"/>
+  <links id="pf138587082151847" target="pf138587082151848" source="pf138587028266341" outcome="fail"/>
+  <links id="pf138587104832250" target="pf138587104832251" source="pf138587104832249" outcome="success"/>
+  <links id="pf138587821685352" target="pf138587821685453" source="pf138585247458232" outcome="success1"/>
+  <links id="pf138588058805755" target="pf138588058805754" source="pf138588058805754" outcome="abcd">
+    <bendPoints d1Height="-36" d2Height="-36"/>
+    <bendPoints d1Width="-64" d1Height="-36" d2Width="-64" d2Height="-36"/>
+    <bendPoints d1Width="-64" d2Width="-64"/>
+  </links>
+  <links id="pf138589455707258" target="pf138589455707260" source="pf138589455707257" outcome="success"/>
+  <links id="pf138589455707259" target="pf138589455707257" source="pf138589455707257" outcome="fail">
+    <bendPoints d1Height="-36" d2Height="-36"/>
+    <bendPoints d1Width="-64" d1Height="-36" d2Width="-64" d2Height="-36"/>
+    <bendPoints d1Width="-64" d2Width="-64"/>
+  </links>
+  <links id="pf138595821896062" target="pf138587082151848" source="pf138587028266343" outcome="fail"/>
+  <links id="pf138595821896061" target="pf138587082151848" source="pf138587028266339" outcome="fail"/>
+  <links id="pf138595841651163" target="pf138587082151848" source="pf138587104832249" outcome="fail"/>
+  <links id="pf138595864372464" target="pf138584746829030" source="pf138588058805754" outcome="babaji ka thullu"/>
+  <links id="pf138596566488365" target="pf138585247458232" source="pf138589455707260" outcome="Logout"/>
+  <links id="pf138612526550067" target="pf138612526550169" source="pf138612526550066" outcome="success2"/>
+  <links id="pf138612526550068" target="pf138612526550066" source="pf138612526550066">
+    <bendPoints d1Height="-36" d2Height="-36"/>
+    <bendPoints d1Width="-64" d1Height="-36" d2Width="-64" d2Height="-36"/>
+    <bendPoints d1Width="-64" d2Width="-64"/>
+  </links>
+  <links id="pf138614042704171" target="pf138614042704272" source="pf138585247458232" outcome="fail"/>
+  <links id="pf138614042704170" target="pf138614042704272" source="pf138578686029519" outcome="fail"/>
+</pageflow:Pageflow>
